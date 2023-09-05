@@ -13,5 +13,6 @@ def newDeploy(jobname,ip,appname)
 }
 def newTesting()
 {
+  git "http:/github.com/TheKarnaa/${repo}.git"
   
 }
